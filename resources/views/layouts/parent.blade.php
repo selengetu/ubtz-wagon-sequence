@@ -23,8 +23,8 @@
 <!-- You can change the theme colors from here -->
 <link href="css/colors/default.css" id="theme" rel="stylesheet">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Хөдөлмөр цалин хөлсний тайлан бүртгэл</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/logo-icon.png">
+    <title>Зүтгүүрийн хөдөлгөөний зохицуулалтын програм</title>
 
 </head>
 
@@ -57,7 +57,7 @@
                             <!-- Dark Logo icon -->
                             <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
                             <!-- Light Logo icon -->
-                            <span>ХЦХ тайлан<span>
+                            <span>Т-ТНЦ<span>
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text --><span>
