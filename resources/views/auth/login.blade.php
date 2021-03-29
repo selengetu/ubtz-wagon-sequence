@@ -6,10 +6,14 @@
 <section class="register-block">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 register-sec">
-                <h2 class="text-center"> Зүтгүүрийн хөдөлгөөн зохицуулалтын систем</h2>
+            <div class="col-md-5 banner-sec">
+            </div>
+            <div class="col-md-7 register-sec">
+                <div class="col-md-8">
+                <h2 class="text-center" style="padding-top: 50px"> Зүтгүүрийн хөдөлгөөн зохицуулалтын систем</h2>
                 <form method="POST" action="{{ route('login') }}">
                 {{ csrf_field() }}
+            
                     <div class="form-group">
                         <label for="exampleInputName1" class="text-uppercase">НЭВТРЭХ НЭР</label>
                         <input id="username" type="text" class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}" name="username" value="{{ old('username') }}" required autofocus placeholder="Нэвтрэх код">
@@ -30,17 +34,16 @@
 
 
 
-                    <div class="form-check">
-                        <button type="submit" class="btn btn-register">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-register form-control">
                             Нэвтрэх
                         </button>
                     </div>
-
+                </div>
                 </form>
 
             </div>
-            <div class="col-md-8 banner-sec">
-            </div>
+           
         </div>
 </section>
 <style>
@@ -49,14 +52,14 @@
     .register-block {
         background: #DE6262;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #e1eef5, #e1eef5);
+        background: -webkit-linear-gradient(to bottom, #d2d6d9, #d2d6d9);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #e1eef5, #e1eef5);
+        background: linear-gradient(to bottom, #d2d6d9, #d2d6d9);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         float: left;
         width: 100%;
         height: 100%;
-        padding: 80px 20px;
+        padding: 30px 10px;
     }
 
     .input-group-text {
@@ -66,8 +69,8 @@
     .banner-sec {
         background: url('/assets/images/1.jpg') no-repeat bottom;
         background-size: cover;
-        min-height: 500px;
-        border-radius: 0 10px 10px 0;
+        min-height: 700px;
+        border-radius: 10px;
         padding: 0;
     }
 
